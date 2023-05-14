@@ -1,0 +1,46 @@
+.topRatedMovies{
+    margin-top: 120px !important;
+}
+.topRatedMovies .arrow{
+    margin: auto;
+    text-align: center;
+}
+.arrow button{
+    width: 70px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.arrow button:hover{
+    background-color: rgba(236, 236, 236, 0.621);
+}
+.arr-short{
+   font-size: 40px;
+}
+.card-list{
+    margin-top: 30px !important;
+    cursor: pointer;
+    position: relative;
+}
+.card-list img{
+    width: 100%;
+   border-radius: 10px;
+}
+.card-list p{
+    text-align: center;
+    color: rgb(148, 148, 148);
+    padding-top: 7px;
+    font-weight: 600;
+    font-family: emoji;
+}
+.card-list:hover p{
+    color: #fff;
+}
+.page-head{
+    margin-top: 30px;
+    text-align: center;
+    font-style: oblique;
+}
+
+

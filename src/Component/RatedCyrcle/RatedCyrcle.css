@@ -1,0 +1,14 @@
+.cyrcle{
+    position: absolute;
+    z-index: 3;
+    top:-30px;
+    right: -15px;
+    opacity: 0;
+    transition: .3s all;
+}
+.card-list:hover .cyrcle{
+    top: -15px;
+    right: -5px;
+    opacity: 1;
+}
+

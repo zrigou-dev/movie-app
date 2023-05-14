@@ -1,0 +1,42 @@
+.topRatedMovie{
+    position: relative !important;
+    top: -120px;
+    z-index: 3;
+}
+.card{
+ border: 0 !important;
+ background-color: var(--main-color) !important;
+ cursor: pointer !important;
+}
+.card p{
+    text-align: center;
+    color: rgb(148, 148, 148);
+    padding-top: 7px;
+    font-weight: 600;
+}
+.card:hover p{
+    color: #fff;
+}
+.topRatedMovie h2{
+    color: #fff;
+    margin-left: 30px;
+    letter-spacing: .3px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .5s !important;
+}
+.topRatedMovie h2 span{
+    font-size: large;
+    display: none;
+    transition: .5s;
+}
+.explore-icon{
+    color: red;
+    font-weight: bolder;
+}
+.topRatedMovie h2:hover span{
+    display: inline-block;
+}
+.mySwiper{
+    margin-bottom: 25px;
+}

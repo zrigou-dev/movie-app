@@ -1,0 +1,16 @@
+.tabs{
+    padding-top: 100px;
+    border: 0ch !important;
+}
+.tab{
+    color: #fff !important;
+}
+.nav-item .active{
+    color: red !important;
+}
+.nav-item .nav-link:hover{
+    color: #fff !important;
+}
+.nav-item .active:hover{
+      color: red !important;
+}
